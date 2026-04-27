@@ -63,7 +63,7 @@ function successPage(): string {
   code{background:#f4f4f5;padding:.15rem .35rem;border-radius:4px}</style></head>
   <body><h1>✅ Authenticated</h1>
   <p>Tokens saved. You can close this tab and trigger an analysis:</p>
-  <pre><code>curl -s -X POST http://localhost:3000/decisions | jq .</code></pre>
+  <pre><code>curl -N -X POST http://localhost:3000/decisions</code></pre>
   </body></html>`;
 }
 
