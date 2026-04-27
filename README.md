@@ -53,7 +53,7 @@ http://localhost:3000/auth/google
 After authenticating:
 
 ```bash
-curl -s -X POST http://localhost:3000/decisions | jq .
+curl -N -X POST http://localhost:3000/decisions
 ```
 
 The same JSON is also pretty-printed to the server console.
